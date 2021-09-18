@@ -35,7 +35,7 @@ public class Main6 {
                     case '4':
                         System.out.println("Введите число");
                         double tt = s.nextDouble();
-                        System.out.println("Килограмм: " + (tt * 0.001));
+                        System.out.println("Килограмм: " + (tt * 1000));
                         System.out.println("Фунт: " + (tt * 2204.62));
                         System.out.println("Унция: " + (tt * 35273.96));
                         System.out.println("Тонна: " + tt);
